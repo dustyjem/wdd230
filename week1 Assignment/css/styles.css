@@ -1,0 +1,88 @@
+header {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: #3377aa;
+    box-shadow: 10px 8px 5px #555;
+}
+
+img {
+    width: 208px;
+    height: 285px;
+    box-shadow: 11px 8px 6px #555;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+p {
+    margin: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    grid-column: 2/3;
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+hr {
+    height: 1px;
+}
+
+banner-pic {
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
+
+li {
+    color: black;
+}
+
+main {
+    color: white;
+}
+
+body {
+    font-family: "Gabriela", Arial, serif;
+    padding: 25px;
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1px;
+    background-color: #3377aa;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 10px 8px 5px #555;
+}
+
+footer p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    color: #d8e831;
+    font-size: 25px;
+}
+
+#myname {
+    color: white;
+    font-size: 35px;
+    text-shadow: 10px 8px 5px #555;
+    ;
+}
+
+h3 {
+    color: white;
+}
