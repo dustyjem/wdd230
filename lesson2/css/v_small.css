@@ -29,6 +29,11 @@ header h1 {
     font-size: 1.5rem;
 }
 
+header>h1 {
+    font-size: 29px;
+    text-align: center;
+}
+
 header h2 {
     font-size: 1.2rem;
 }
@@ -76,7 +81,7 @@ article h1 {
 header {
     background-color: #274690;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -93,4 +98,14 @@ a {
 
 main>article>h1 {
     font-family: "Fredoka+One", sans-serif;
+}
+
+h1.first-heading {
+    font-size: 27px;
+    text-align: center;
+}
+
+h2.second-heading {
+    font-size: 20px;
+    text-align: center;
 }

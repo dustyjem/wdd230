@@ -38,6 +38,14 @@
     img {
         box-shadow: 8px 8px 8px #ababab;
     }
+    h1.first-heading {
+        font-size: 27px;
+        text-align: center;
+    }
+    h2.second-heading {
+        font-size: 20px;
+        text-align: center;
+    }
 }
 
 main>article>h1 {
