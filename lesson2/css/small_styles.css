@@ -1,0 +1,45 @@
+@media only screen and (min-width: 404px) {
+    main {
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    body {
+        background-color: white;
+        max-width: 295px;
+        margin: auto;
+        background: white;
+        padding: 10px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    article h1 {
+        background-color: #274690;
+        padding: 7px;
+        color: white;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+    }
+    header {
+        background-color: #274690;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Rubik Mono One', sans-serif;
+    }
+    footer {
+        text-align: center;
+        background-color: #274690;
+        font-family: 'Rubik Mono One', sans-serif;
+    }
+    a {
+        color: white;
+    }
+    img {
+        box-shadow: 8px 8px 8px #ababab;
+    }
+}
+
+main>article>h1 {
+    font-family: "Fredoka+One", sans-serif;
+}

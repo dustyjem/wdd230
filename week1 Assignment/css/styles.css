@@ -36,11 +36,6 @@ hr {
     height: 1px;
 }
 
-banner-pic {
-    grid-column: 1/2;
-    grid-row: 1/1;
-}
-
 li {
     color: black;
 }
