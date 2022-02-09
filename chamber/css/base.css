@@ -286,12 +286,32 @@ contInfo {
         background-image: url(images/banner.jpg);
     }
     footer {
-        background-color: #003755;
+        background-color: #A16E83;
         padding-top: 1rem;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    footer div img {
+        max-width: 100%;
+    }
+    #time-stamp {
+        background-color: #003755;
+        color: #eee;
+        grid-column: 1/5;
+        text-align: center;
+    }
+    img#teleph {
+        max-width: 40px;
+        margin-right: 10px;
     }
     img#banner-photo {
         height: 430px;
+    }
+    #footer-logo {
+        width: auto;
+        height: auto;
+        max-width: auto;
+        max-height: auto;
     }
     section {
         display: grid;
