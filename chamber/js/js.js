@@ -14,21 +14,28 @@
 //     nav.classlist.toggle("responsive");
 // }
 
+function monTues() {
+    const datefieldUK = document.querySelector("#today-date"); // for european/family history format with day first.
 
-const datefieldUK = document.querySelector("#today-date"); // for european/family history format with day first.
+    // derive the current date using a date object
+    const now = new Date();
+    const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+        now
+    );
+    const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+        dateStyle: "full"
+    }).format(now);
+    // long, medium, short options ... try them
 
-// derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-    now
-);
-const fulldateUK = new Intl.DateTimeFormat("en-UK", {
-    dateStyle: "full"
-}).format(now);
-// long, medium, short options ... try them
+    datefieldUK.innerHTML = `<span>${fulldateUK}</span>`;
+    if (new Date().getDay() == 1 || new Date().getDay() == 2) {
+        datefieldUK.innerHTML = `<span>${fulldateUK}</span>`
+    } else {
+        datefieldUK.innerHTML = `🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.`
+    }
+}
 
-datefieldUK.innerHTML = `<span>${fulldateUK}</span>`;
-
+monTues();
 let string = document.lastModified;
 document.querySelector("#last-updated").innerHTML = (document.lastModified);
 
