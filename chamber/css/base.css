@@ -242,7 +242,7 @@ contInfo {
     }
     #event {
         grid-column: 1 / 5;
-        grid-row: 4/5;
+        grid-row: 3/4;
     }
     div#weather {
         grid-column: 4/5;
@@ -282,7 +282,7 @@ contInfo {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     nav ul {
         display: flex;
@@ -297,9 +297,6 @@ contInfo {
     }
     nav ul li a {
         color: white;
-    }
-    #event {
-        grid-column: 1 / 2;
     }
     #weather {
         grid-column: 1/2;
