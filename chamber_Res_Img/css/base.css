@@ -3,10 +3,6 @@ html {
     min-width: 400px;
 }
 
-table {
-    text-align: center;
-}
-
 body {
     font-size: 16px;
     font-family: Inter, sans-serif;
@@ -27,7 +23,7 @@ img {
 }
 
 img#banner-pic {
-    width: 100%;
+    margin: auto;
 }
 
 header {
@@ -191,7 +187,10 @@ footer div img {
 }
 
 #footer-logo {
-    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-width: auto;
+    max-height: auto;
 }
 
 img#teleph {
@@ -221,16 +220,6 @@ contInfo {
 #article {
     width: 400px;
     text-align: center;
-}
-
-#join a {
-    color: white;
-    background-color: #0074c4;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-top: 2rem;
-    box-shadow: 0 3px 6px rgb(0 0 0 / 27%);
 }
 
 @media only screen and (min-width: 785px) {
@@ -272,7 +261,10 @@ contInfo {
         max-width: 100%;
     }
     #footer-logo {
-        max-width: 100%;
+        width: auto;
+        height: auto;
+        max-width: auto;
+        max-height: auto;
     }
     img#teleph {
         max-width: 40px;
@@ -283,15 +275,6 @@ contInfo {
         color: #eee;
         grid-column: 1/5;
         text-align: center;
-    }
-    #join a {
-        color: white;
-        background-color: #0074c4;
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 20px;
-        margin-top: 2rem;
-        box-shadow: 0 3px 6px rgb(0 0 0 / 27%);
     }
 }
 
@@ -335,7 +318,10 @@ contInfo {
         max-width: 100%;
     }
     #footer-logo {
-        max-width: 100%;
+        width: auto;
+        height: auto;
+        max-width: auto;
+        max-height: auto;
     }
     #time-stamp {
         background-color: #003755;
@@ -380,38 +366,5 @@ contInfo {
     #hero img {
         max-height: 100%;
         max-width: 100%;
-    }
-    #hero a {
-        padding: 1% 3rem;
-        border-radius: 50px;
-    }
-    #hero {
-        position: relative;
-    }
-    #join a {
-        color: white;
-        background-color: #0074c4;
-        padding: 4% 2rem;
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 20px;
-        margin-top: 2rem;
-        box-shadow: 0 3px 6px rgb(0 0 0 / 27%);
-    }
-    #hero .btn {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #479761;
-        font-size: 16px;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-        text-align: center;
-    }
-    #hero .btn:hover {
-        background-color: #0074c4;
     }
 }
