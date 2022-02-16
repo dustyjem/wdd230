@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300;1,400&display=swap');
+body {
+    background: #63d1ec;
+    font-family: Faustina, Helvetica, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #65fd65;
+    font-size: 47px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 47px;
+    color: #e92603;
+}
+
+header>h1 {
+    color: black;
+    text-align: center;
+    font-size: 70px;
+}
+
+marquee {
+    display: inline-block;
+    width: -webkit-fill-available;
+    color: blue;
+}
+
+.score_board {
+    border: 10px solid black;
+    margin: 20px;
+    width: 500px;
+    color: white;
+    border-bottom: 10px solid black;
+    border-radius: 10px;
+    font-family: Faustina, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player_badge {
+    background: #63ec63;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.cpu_badge {
+    background: #e92603;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+#player_label {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cpu_label {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#player_score {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cpu_score {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.results {
+    font-size: 40px;
+    color: antiquewhite
+}
+
+.results>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: blue;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice {
+    display: inline-block;
+    border: 4px solid rgb(181, 199, 24);
+    border-radius: 50%;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+img {
+    max-height: 150px;
+    max-width: 200px;
+    width: 160px;
+    height: 200px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #e92603;
+}
+
+#action_message {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: blue;
+}
+
+#action_message {
+    animation: blinking 1.5s infinite;
+    font-size: 50px;
+}
+
+@keyframes blinking {
+    0% {
+        color: red;
+    }
+    47% {
+        color: rgb(18, 194, 27);
+    }
+    62% {
+        color: transparent;
+    }
+    97% {
+        color: transparent;
+    }
+    100% {
+        color: rgb(52, 55, 241);
+    }
+}
