@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Lagos Chamber of Commerce</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lagos chamber of Commerce" />
+    <meta name="author" content="Ekenedilihcukwu Okeke" />
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo1.webp" alt="logo" class="mylogo">
+        <div>
+            <h1 id="webTitle">Lagos</h1>
+            <h2 id="coc">Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="topics.html">Topics</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#" id="hamburger">&#9776;</a></li>
+            </ul>
+        </nav>
+        <span id="twitter">
+         <a href="https://twitter.com"
+            ><img src="images/twitter.svg" alt="twitter logo"
+            /></a>
+         </span>
+        <span id="instagram">
+         <a href="https://instagram.com"
+            ><img src="images/instagram.svg" alt="instagram logo"
+            /></a>
+         </span>
+        <p class="today-date"><span id="today-date"></span></p>
+    </header>
+    <main>
+        <div id="event">
+            <h1>Event</h1>
+            <h3>Ribbon Cutting</h3>
+            <h4>💎 The diamond Shack</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, nemo aut. Corrupti, nemo aut Quae minima perspiciatis, deserunt expedita, nemo vero omnis nisi beatae temporibus officiis cum harum? Laborum in, tenetur excepturi vel ipsa
+                porro repellat necessitatibus delectus laboriosam nobis Corrupti, nemo aut.</p>
+        </div>
+        <div id="weather">
+            <h2>Weather</h2>
+            <img src="images/sun.svg" alt="Sun display" id="sunny" />
+            <p>Sunny</p>
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Weather Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Currently:</td>
+                        <td>Sunny</td>
+                    </tr>
+                    <tr>
+                        <td>High:</td>
+                        <td><span id="temp">44</span>&deg;F</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill:</td>
+                        <td><span id="windchill">N/A</span></td>
+                    </tr>
+                    <tr>
+                        <td>Humidity:</td>
+                        <td>82%</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed:</td>
+                        <td><span id="windspeed">12</span>mph</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="hero">
+            <h2>Welcome to the Lagos Chamber of Commerce</h2>
+            <button class="btn">Join Us Today!</button>
+            <picture>
+                <source media="(max-width: 785px)" srcset="images/banner_small.jpg" />
+                <source media="(max-width: 1050px)" srcset="images/banner_medium.jpg" />
+                <source media="(max-width: 1051px)" srcset="images/banner_large.jpg" />
+                <img src="images/banner_large.jpg" alt="Banner Photo" id="banner-pic" />
+            </picture>
+        </div>
+
+        <section id="spotlight">
+            <div id="spotlight1">
+                <h2>Spotlight 1</h2>
+            </div>
+            <div id="spotlight2">
+                <h2>Spotlight 2</h2>
+            </div>
+            <div id="spotlight3">
+                <h2>Spotlight 3</h2>
+            </div>
+        </section>
+        <div id="join">
+            <h2>Join Us</h2>
+            <a href="join.html">Join Us Today!</a>
+        </div>
+
+        <div id="news-release">
+            <h3>
+                News Release
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, nemo aut. Quae minima perspiciatis, deserunt expedita, nemo vero omnis nisi beatae temporibus officiis cum harum? Laborum in, tenetur excepturi vel ipsa porro repellat necessitatibus
+                delectus laboriosam nobis, molestias soluta dolorem?</p>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img src="images/logo.png" alt="logo" id="footer-logo" />
+        </div>
+        <div>
+            <p>Lagos Chamber of Commerce<br> 697 Trejo St, Rexburg Idaho</p>
+        </div>
+        <div id="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+                <img src="images/phone-call.svg" alt="phone" id="teleph" /><span> +1 385-314-0180</span>
+            </p>
+        </div>
+        <div id="map">
+            <img src="images/map.png " alt=" " />
+        </div>
+        <div id="time-stamp">
+            <p><span id="currentDate">2022</span>&nbsp;| Ekenedilihcukwu Okeke | +1 385-314-0180</p>
+            <p>Last Modification: <span id="last-updated"></span></p>
+        </div>
+        <script src="js/js.js"></script>
+        <script src="js/windchill.js"></script>
+    </footer>
+</body>
+
+</html>
