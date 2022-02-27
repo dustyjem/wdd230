@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Lagos Chamber of Commerce</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lagos chamber of Commerce" />
+    <meta name="author" content="Ekenedilihcukwu Okeke" />
+    <link rel="stylesheet" href="css/base.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo1.webp" alt="logo" class="mylogo">
+        <div>
+            <h1 id="webTitle">Lagos</h1>
+            <h2 id="coc">Chamber of Commerce</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#" id="hamburger">&#9776;</a></li>
+            </ul>
+        </nav>
+        <span id="twitter">
+         <a href="https://twitter.com"
+            ><img src="images/twitter.svg" alt="twitter logo"
+            /></a>
+         </span>
+        <span id="instagram">
+         <a href="https://instagram.com"
+            ><img src="images/instagram.svg" alt="instagram logo"
+            /></a>
+         </span>
+        <p class="today-date"><span id="today-date"></span></p>
+    </header>
+    <main id="formbody">
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First name* <input type="text" name="fname" required
+              /></label>
+                <label class="top">Last name* <input type="text" name="lname" required
+              /></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"
+              /></label>
+                <label class="top">Email*
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="someone@gmail.com"
+                  required
+              /></label>
+                <label class="top">Business name <input type="text" name="text" placeholder=""
+              /></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Describe your Buisness</legend>
+                <label class="top">
+                    Enter text
+                    <textarea name="comment" placeholder="type here..."></textarea>
+                  </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Package</legend>
+                <label class="top"><input type="radio" name="member" value="np"><span class="level"> Non-profit </span><span class="cost"> Free </span></label>
+                <p class="description"> Have your business listed in the Utah Valley Chamber's online directory.</p>
+                <label class="top"><input type="radio" name="member" value="bronze"><span class="level"> Bronze </span><span class="cost"> $1,000 </span></label>
+                <p class="description"> See some growth for your company by being included in our website spotlights and online directory. </p>
+                <label class="top"><input type="radio" name="member" value="silver"><span class="level"> Silver </span><span class="cost"> $3,000 </span></label>
+                <p class="description"> Stay up-to-date in the Chamber's events, receive spotlights, and be included in the chamber's online directory.</p>
+                <label class="top"><input type="radio" name="member" value="gold"><span class="level"> Gold </span><span class="cost"> $6,000 </span></label>
+                <p class="description"> Become a part of the conversation at executive meetings, formal dinners, events, spotlights, and included in the online directory.</p>
+            </fieldset>
+            <input class="submitBtn" type="submit" value="Submit" />
+            <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <img src="images/logo.png" alt="logo" id="footer-logo" />
+        </div>
+        <div>
+            <p>Lagos Chamber of Commerce<br> 697 Trejo St, Rexburg Idaho</p>
+        </div>
+        <div id="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+                <img src="images/phone-call.svg" alt="phone" id="teleph" /><span> +1 385-314-0180</span>
+            </p>
+        </div>
+        <div id="map">
+            <img src="images/map.png " alt=" " />
+        </div>
+        <div id="time-stamp">
+            <p><span id="currentDate">2022</span>&nbsp;| Ekenedilihcukwu Okeke | +1 385-314-0180</p>
+            <p>Last Modification: <span id="last-updated"></span></p>
+        </div>
+        <script src="js/js.js "></script>
+        <script src="js/discover.js"></script>
+    </footer>
+</body>
+
+</html>

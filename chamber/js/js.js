@@ -47,3 +47,20 @@ hamburger.addEventListener("click", showMenu);
 function showMenu() {
     nav.classList.toggle("responsive");
 }
+
+// let date = new Date();
+// document.querySelector('#date').value = date;
+// In HTML it would look something like this:
+//     <
+//     input id = 'date'
+// type = "hidden"
+// name = "todaydate" > < /input>
+
+var datetime = "Last Sync: " + d.getDate() + "/" +
+    (d.getMonth() + 1) + "/" +
+    d.getFullYear() + " || " +
+    d.getHours() + ":" +
+    d.getMinutes() + ":" +
+    d.getSeconds();
+console.log(datetime)
+document.getElementById("submitdate").value = datetime
