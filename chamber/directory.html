@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Lagos chamber of Commerce" />
     <meta name="author" content="Ekenedilihcukwu Okeke" />
-    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/directory.css" />
 </head>
 
-<body>
+<body id="direcbody">
     <header>
         <img src="images/logo1.webp" alt="logo" class="mylogo">
         <div>
@@ -19,10 +19,10 @@
         </div>
         <nav>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="directory.html">Discover</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#" id="hamburger">&#9776;</a></li>
             </ul>
         </nav>
@@ -39,17 +39,19 @@
         <p class="today-date"><span id="today-date"></span></p>
     </header>
 
-    <main id="discoverbody">
-        <div>
-            <p style="text-align: center;">&#9783; &#9776;</p>
+    <main>
+        <section class="directory">
+            <h4>Business Directory</h4>
+            <div class="list-view-btn">
+                <button id="list-btn"> <img src="images/list-view.svg" alt="list view button" width="50"></button>
+                <button id="card-btn"> <img src="images/card-view.svg" alt="list view button" width="50"></button>
+            </div>
+            <div class="cards list-view">
 
-        </div>
-        <table>
 
-        </table>
+            </div>
+        </section>
     </main>
-
-
     <footer>
         <div>
             <img src="images/logo.png" alt="logo" id="footer-logo" />
@@ -71,6 +73,6 @@
             <p>Last Modification: <span id="last-updated"></span></p>
         </div>
         <script src="js/js.js"></script>
-        <script src="js/windchill.js"></script>
+        <script src="js/directory.js"></script>
     </footer>
 </body>

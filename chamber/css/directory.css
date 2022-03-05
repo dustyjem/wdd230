@@ -1,0 +1,373 @@
+html {
+    max-width: 1200px;
+    min-width: 400px;
+    margin: auto;
+}
+
+h4 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.card-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.directory {
+    text-align: center;
+    border: 4px #BF6F7E dotted;
+}
+
+section {
+    display: block;
+}
+
+.list-view section {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.list-view section:nth-child(2n) {
+    background-color: #BF6F7E40;
+}
+
+.card-view {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card-view img {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+section {
+    display: block;
+}
+
+#coc {
+    text-align: left;
+}
+
+body {
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    background-color: #eee;
+}
+
+img {
+    max-width: 100%;
+}
+
+img#banner-pic {
+    width: 100%;
+}
+
+header {
+    display: grid;
+    padding: 0;
+    background-color: #A16E83;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 20px;
+    align-items: center;
+}
+
+#coc {
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+#mylogo {
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 100%;
+}
+
+span img {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-right: 5px;
+}
+
+header h1 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 0.8rem;
+    margin: 0;
+    font-weight: 100;
+}
+
+nav {
+    color: #eee;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
+    grid-column: 3 / 6;
+}
+
+nav ul {
+    padding: 0;
+    background-color: #A16E83;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav li {
+    display: none;
+}
+
+nav li:last-child {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li:hover {
+    background-color: #479761;
+}
+
+nav ul li.active {
+    background-color: #479761;
+}
+
+p.today-date {
+    background-color: #003755;
+    grid-column: 1 / 8;
+    grid-row: 2 / 2;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+}
+
+#date-time {
+    grid-row: 2 / 3;
+    grid-column: 1 / 7;
+    text-align: center;
+}
+
+ul {
+    color: #eee;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+li {
+    color: #eee;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a {
+    color: #eee;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#hero {
+    grid-row: 1/1;
+}
+
+section {
+    display: grid;
+    background-color: #853f5c;
+}
+
+.responsive li {
+    display: block;
+}
+
+footer {
+    background-color: #A16E83;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+}
+
+footer div img {
+    max-width: 100%;
+}
+
+#footer-logo {
+    max-width: 100%;
+}
+
+img#teleph {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+#time-stamp {
+    background-color: #003755;
+    color: #eee;
+    grid-column: 1/5;
+    text-align: center;
+}
+
+contInfo {
+    color: #003755;
+}
+
+#date-time {
+    color: #eee;
+    padding: 0.5rem 0;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+@media only screen and (min-width: 785px) {
+    main {
+        display: grid;
+    }
+    footer {
+        background-color: #A16E83;
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5px;
+    }
+    footer div img {
+        max-width: 100%;
+    }
+    #footer-logo {
+        max-width: 100%;
+    }
+    img#teleph {
+        max-width: 40px;
+        margin-right: 10px;
+    }
+    #time-stamp {
+        background-color: #003755;
+        color: #eee;
+        grid-column: 1/5;
+        text-align: center;
+    }
+    .card-view {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-view img {
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+    .card-view {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    main {
+        display: grid;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li:last-child {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    nav ul li a {
+        color: white;
+    }
+    footer {
+        background-color: #A16E83;
+        padding-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 5px;
+    }
+    footer div img {
+        max-width: 100%;
+    }
+    #footer-logo {
+        max-width: 100%;
+    }
+    #time-stamp {
+        background-color: #003755;
+        color: #eee;
+        grid-column: 1/5;
+        text-align: center;
+    }
+    .directory {
+        text-align: center;
+        border: 4px #BF6F7E dotted;
+    }
+    .list-view img,
+    .card-view>section h3 {
+        display: none;
+    }
+    .card-view img {
+        width: 30%;
+        margin: auto;
+    }
+    .list-view>section h3 {
+        display: block;
+    }
+    .list-view section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card-view section {
+        padding: .5em;
+        margin: .5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 4px #BF6F7E dotted;
+    }
+    .list-view-btn {
+        padding: .5em;
+    }
+    .list-view-btn button {
+        padding: .2rem;
+        background-color: white;
+        border: 3px #BF6F7E solid;
+        border-radius: 5px;
+        margin: .3em;
+    }
+    .list-view section:nth-child(2n) {
+        background-color: #BF6F7E40;
+    }
+    section {
+        display: block;
+    }
+    .directory {
+        text-align: center;
+        border: 4px #a8b90a;
+    }
+    .card-view {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
