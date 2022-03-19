@@ -63,6 +63,7 @@ section {
 }
 
 .nonprof {
+    color: black;
     display: block;
     margin-block-start: -1em;
     margin-block-end: 0em;
@@ -310,7 +311,7 @@ ul {
 }
 
 li {
-    color: #eee;
+    color: black;
     padding: 0.5rem 0;
     text-align: center;
     margin-top: 1rem;
@@ -638,5 +639,14 @@ contInfo {
     #bodir {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    .nonprof {
+        color: black;
+        display: block;
+        margin-block-start: -1em;
+        margin-block-end: 0em;
+        margin-inline-start: 41px;
+        margin-inline-end: 0px;
+        line-height: 0.9;
     }
 }
