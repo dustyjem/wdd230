@@ -26,11 +26,12 @@ const webApiKey = "78298f0be9d2981ef18b16cdbdb8e086"
 
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${cityId}&appid=${webApiKey}`;
 
+
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);
-        const t = jsObject.main.temp.toFixed(1);
+        const t = ((jsObject.main.temp - 273.15) * 1.8000 + 32.00).toFixed(1);
         document.querySelector('#temp').textContent = t;
 
         const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;

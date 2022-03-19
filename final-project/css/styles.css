@@ -55,6 +55,11 @@ html {
     height: 100%;
 }
 
+.navbar-custom .navbar-brand.logo-image img {
+    width: 10.5625rem;
+    height: 6.875rem;
+}
+
 body,
 p {
     color: #555;
@@ -727,8 +732,8 @@ screen and (-ms-high-contrast: none) {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 9.5625rem;
-    height: 6.875rem;
+    width: 5.5625rem;
+    height: 1.875rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {

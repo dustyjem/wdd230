@@ -20,10 +20,12 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li class="active">
+                    <a href="contacts.html">Contacts</a>
+                </li>
                 <li><a href="#" id="hamburger">&#9776;</a></li>
             </ul>
         </nav>
@@ -42,7 +44,7 @@
     <main id="formbody">
         <form action="thankyou.html" method="get">
             <fieldset>
-                <legend>Applicant Information</legend>
+                <legend>Contact Us</legend>
                 <label class="top">First name* <input type="text" name="fname" required
               /></label>
                 <label class="top">Last name* <input type="text" name="lname" required
@@ -58,52 +60,33 @@
               /></label>
                 <label class="top">Business name <input type="text" name="text" placeholder=""
               /></label>
-            </fieldset>
 
-            <fieldset>
-                <legend>Describe your Buisness</legend>
-                <label class="top">
-                    Enter text
-                    <textarea name="comment" placeholder="type here..."></textarea>
-                  </label>
-            </fieldset>
-            <fieldset>
-                <legend>Membership Package</legend>
-                <label class="top"><input type="radio" name="member" value="np"><span class="level"> Non-profit </span><span class="cost"> Free </span></label>
-                <p class="description">For non profit organizations and there is no fee.</p>
-                <label class="top"><input type="radio" name="member" value="bronze"><span class="level"> Bronze </span><span class="cost"> $1,000 </span></label>
-                <p class="description">
-                    <ul class="nonprof">
-                        <li>15% discount on events</li>
-                        <li>10% discount on advertising</li>
-                        <li>Fee of $50/month</li>
-                    </ul>
-                </p>
-                <label class="top"><input type="radio" name="member" value="silver"><span class="level"> Silver </span><span class="cost"> $3,000 </span></label>
-                <p class="description">
-                    <ul class="nonprof">
-                        <li>25% discount on events</li>
-                        <li>15% discount on advertising</li>
-                        <li>Free participation in the trade fair</li>
-                        <li>Fee of $100/month</li>
-                    </ul>
-                </p>
-                <label class="top"><input type="radio" name="member" value="gold"><span class="level"> Gold </span><span class="cost"> $6,000 </span></label>
-                <p class="description">
-                    <ul class="nonprof">
-                        <li>50% discount on events</li>
-                        <li>50% discount on advertising</li>
-                        <li>Free participation in the trade fair</li>
-                        <li>5 Free featured ads per year</li>
-                        <li>Fee of $250/month</li>
-                    </ul>
-                </p>
             </fieldset>
             <input class="submitBtn" type="submit" value="Submit" />
             <label><input type="hidden" id="submitdate" name="submitdate" value=""></label>
         </form>
+        <p>Our Number is: 123-456-7890</p>
+        <div>
+            <h2 style="color:black;">Board of Directors</h2>
+            <div id="bodir">
+                <figure id="figure1">
+                    <img src="images/testimonial-1.jpg">
+                    <figcaption>Moe Lester</figcaption>
+                </figure>
+                <figure id="figure2">
+                    <img src="images/testimonial-2.jpg">
+                    <figcaption>Ben Dovah</figcaption>
+                </figure>
+                <figure id="figure3">
+                    <img src="images/testimonial-3.jpg">
+                    <figcaption>Hugh Janus</figcaption>
+                </figure>
+                <figure id="figure4">
+                    <img src="images/testimonial-4.jpg">
+                    <figcaption>Sue Cockman</figcaption>
+                </figure>
+            </div>
     </main>
-
     <footer>
         <div>
             <img src="images/logo.png" alt="logo" id="footer-logo" />
@@ -124,8 +107,8 @@
             <p><span id="currentDate">2022</span>&nbsp;| Ekenedilihcukwu Okeke | +1 385-314-0180</p>
             <p>Last Modification: <span id="last-updated"></span></p>
         </div>
-        <script src="js/js.js "></script>
-        <script src="js/discover.js"></script>
+        <script src="js/js.js"></script>
+        <script src="js/windchill.js"></script>
     </footer>
 </body>
 
