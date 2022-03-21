@@ -1,0 +1,16 @@
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+strong {
+    font-weight: inherit;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+img {
+    border-style: none;
+}

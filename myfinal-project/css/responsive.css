@@ -312,26 +312,6 @@ footer .copyrights a.ph_link {
         padding: 0 40px;
         max-width: 1020px;
     }
-    .search .advanced_search .arrow {
-        top: -8px;
-        right: 46px;
-    }
-    .search .advanced_search #check_in_date,
-    .search .advanced_search #check_out_date,
-    .search .advanced_search #min_price,
-    .search .advanced_search #max_price {
-        width: 46.27272727272727%;
-        padding: 0 1.818181818181818%;
-    }
-    .search .advanced_search #check_in_date,
-    .search .advanced_search #check_out_date {
-        background: url('../img/calendar_icon.png') no-repeat;
-        background-position: 95.08840864440079% 50%;
-    }
-    .search .advanced_search #keywords {
-        width: 96.36363636363636%;
-        padding: 0 1.818181818181818%;
-    }
     footer .footer>ul>li {
         margin-right: 5.454545454545455%;
     }
@@ -408,24 +388,8 @@ footer .copyrights a.ph_link {
         background: #f2f3f3;
     }
     header nav ul li a,
-    header nav .login_btn {
-        color: #1c3655;
-    }
-    header nav .login_btn:hover {
-        background: #eaebeb;
-    }
     header nav ul li:last-child {
         border: 0;
-    }
-    .listings ul.properties_list li {
-        width: 46.36363636363636%;
-        margin: 0 7.272727272727273% 7.272727272727273% 0;
-    }
-    .listings ul.properties_list li:nth-child(3n+0) {
-        margin: 0 7.272727272727273% 7.272727272727273% 0;
-    }
-    .listings ul.properties_list li:nth-child(2n+0) {
-        margin-right: 0;
     }
     footer .footer>ul>li {
         width: 29.6969696969697%!important;
@@ -448,31 +412,7 @@ footer .copyrights a.ph_link {
     }
 }
 
-@media (max-width:700px) {
-    .search .advanced_search #check_in_date,
-    .search .advanced_search #check_out_date,
-    .search .advanced_search #min_price,
-    .search .advanced_search #max_price {
-        width: 96.36363636363636%;
-        padding: 0 1.818181818181818%;
-        border-bottom: 1px solid #aac8e4;
-    }
-    .search .advanced_search #check_in_date,
-    .search .advanced_search #check_out_date {
-        background: url('../img/calendar_icon.png') no-repeat;
-        background-position: 95.08840864440079% 50%;
-    }
-    .search .advanced_search #keywords {
-        width: 96.36363636363636%;
-        padding: 0 1.818181818181818%;
-    }
-    .search .advanced_search .search_fields {
-        border-bottom: 0;
-    }
-    .search .advanced_search .field_sep {
-        display: none;
-    }
-}
+@media (max-width:700px) {}
 
 @media (max-width:500px) {
     .hero .caption h2 {
@@ -480,26 +420,6 @@ footer .copyrights a.ph_link {
     }
     .hero .caption h3 {
         font-size: 16px;
-    }
-    .search #search {
-        width: 83%;
-    }
-    .listings ul.properties_list li {
-        width: 100%;
-        margin-bottom: 60px!important;
-    }
-    .listings ul.properties_list li:last-child {
-        margin-bottom: 0!important;
-    }
-    .listings ul.properties_list li:nth-child(3n+0),
-    .listings ul.properties_list li:nth-child(2n+0) {
-        margin: 0;
-    }
-    .listings .more_listing_btn {
-        display: block;
-        width: 100%;
-        padding-left: 0!important;
-        padding-right: 0!important;
     }
     footer .footer>ul>li.links,
     footer .footer>ul>li.about {
