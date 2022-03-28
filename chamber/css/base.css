@@ -1,5 +1,5 @@
 html {
-    max-width: 1200px;
+    max-width: 1400px;
     min-width: 400px;
     margin: auto;
 }
@@ -210,7 +210,7 @@ img#banner-pic {
 
 header {
     display: grid;
-    padding: 0;
+    padding: 20px;
     background-color: #659DBD;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     font-size: 20px;
@@ -368,15 +368,16 @@ footer {
     padding-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 5px;
+    padding: 20px;
 }
 
 footer div img {
     max-width: 100%;
+    height: 100%;
 }
 
 #footer-logo {
-    height: 145px;
+    height: 100%;
 }
 
 img#teleph {
@@ -471,10 +472,11 @@ contInfo {
         padding-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 5px;
+        padding: 20px;
     }
     footer div img {
         max-width: 100%;
+        height: 100%;
     }
     #footer-logo {
         max-width: 100%;
@@ -551,10 +553,11 @@ contInfo {
         padding-top: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 5px;
+        padding: 20px;
     }
     footer div img {
         max-width: 100%;
+        height: 100%;
     }
     #footer-logo {
         max-width: 100%;
