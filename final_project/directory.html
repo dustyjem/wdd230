@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ekene Okeke personal portfolio" />
+    <meta name="author" content="Ekene Okeke" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <title>Home | Ekene Okeke</title>
+</head>
+
+<body>
+    <!-- Banner -->
+    <aside id="banner">
+        <!-- banner text here -->
+        <p id="closeBanner">&times;</p>
+    </aside>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+            <div>
+                <h1>Ekenedilichukwu Okeke</h1>
+                <p>Personal Portfolio</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav id="menu">
+            <div id="closeBtn">
+                &times;
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects & Collaborations</a></li>
+                <li class="active"><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div id="menuBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <main>
+        <div id="summary">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/directory.jpg" />
+                <source media="(max-width: 800px)" srcset="images/directory.jpg" />
+                <source media="(max-width: 1024px)" srcset="images/directory.jpg" />
+                <img src="images/directory.jpg" alt="Sky scraper" />
+            </picture>
+            <h1>Business Directory</h1>
+        </div>
+        <section id="directory">
+            <div>
+                <h2>Businesses Ekene have helped create and develop their websites</h2>
+                <div id="controls">
+                    <button id="list-btn">
+            <img src="images/list.svg" alt="list view">
+          </button>
+                    <button id="grid-btn">
+            <img src="images/grid.svg" alt="grid view">
+          </button>
+                </div>
+            </div>
+            <div id="businesses"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="top">
+            <div class="about-us">
+                <img src="images/logo.png" alt="logo" />
+                <p>Just a global citizen trying to make the worl a better place.</p>
+            </div>
+            <div>
+                <a href="//google.com">
+        479 Trejo Street, <br> Opposite Sinclair Gas Station <br> Rexburg Idaho.
+      </a>
+            </div>
+            <div>
+                <a href="contact.html">Contact Us</a> <br>
+                <a href="tel:+2348108156732">(+1) 385-314-0180</a> <br>
+                <a href="mailto:dukeokeke@gmail.com">dukeokeke@gmail.com</a>
+            </div>
+            <div>
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/duke.okeke1">FB</a></li>
+                    <li><a href="https://twitter.com/DustyJem">TW</a></li>
+                    <li><a href="https://www.instagram.com/thedustyjem/">INS</a></li>
+                    <li><a href="https://www.linkedin.com/in/duke-okeke-802188192/">LKD</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2021 Ekenedilichukwu Okeke | Images by Unsplash
+            <p>Weather Data provided by
+                <a href="https://https://openweathermap.org/">OpenWeatherMap.org</a>
+            </p>
+            <p>Last modified <span id="currentDate">202x</span>&nbsp;</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/directory.js"></script>
+</body>
+
+</html>
