@@ -109,6 +109,9 @@
     }
     #businesses {
         padding: 0.3rem 1rem;
+        margin: auto;
+        width: auto;
+        margin: auto;
     }
     #businesses p {
         font-size: 0.9rem;

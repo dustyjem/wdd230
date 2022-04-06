@@ -41,7 +41,7 @@
     }
     #businesses .card>div div img {
         max-width: 10rem;
-        float: right;
+        margin-left: auto;
     }
     #businesses.grid .card>div div img {
         max-width: 7rem;

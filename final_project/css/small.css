@@ -625,6 +625,7 @@ form label.top input:required:valid {
 
 #businesses .card>div div p {
     margin-bottom: 0.5rem;
+    width: 500px;
 }
 
 #businesses .card>div div img {
