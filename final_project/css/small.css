@@ -192,6 +192,11 @@ footer {
     margin: auto;
 }
 
+footer .top>div:not(:first-child) {
+    margin-top: 0;
+    margin: auto;
+}
+
 footer>.top {
     display: flex;
     flex-direction: column;

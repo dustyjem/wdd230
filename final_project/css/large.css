@@ -6,6 +6,14 @@
         padding-left: 7rem;
         padding-right: 7rem;
     }
+    footer>.top {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: #ddd;
+        background-color: #24252a;
+        padding: 1.5rem;
+        text-align: center;
+    }
     #portimgs {
         padding: 10px;
     }
